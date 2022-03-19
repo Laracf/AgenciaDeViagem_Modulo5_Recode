@@ -1,0 +1,152 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .border-top {
+    border-top: 1px solid #b61515;
+  }
+  .border-bottom {
+    border-bottom: 1px solid #831616;
+  }
+  
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  
+  button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px;
+    min-width: 372px;
+  
+  }
+  
+  #price h1{
+    color: #EC6E2A;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:lighter  
+  }
+  
+  #prince p{
+    font: 1em sans-serif;
+  }
+  
+  #menu{
+    color:#EB6117;
+    background-color: #f5dfd2;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .wrapper {
+    min-height: 100vh;
+  }
+  
+  body
+  {
+    background-color: #f7ede9 !important;
+  }
+  
+  #destinos{
+    color: #EB173A;
+  }
+  
+  #p-home{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(14, 61, 114);
+  }
+
+  #area_promocao {
+    display: flex;
+}
+  .categorias {
+    background: #f08f57;
+    padding: 30px 0 0 15px;
+    font-size: 1.1rem;
+    width: 15%;
+    box-shadow: 1px 3px 9px rgb(1, 31, 66);
+    min-height: calc(100vh - 180px - 60px - 70px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.categorias li {
+    list-style: none;
+    cursor: pointer;
+    padding: 5px 0 5px 20px;
+}
+.categorias li:hover {
+    background-color: #f09f70;
+    color: white;
+}
+.promocoes {
+    padding: 60px 0px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    margin: 10px 0;
+    padding: 0 20px;
+    width: calc(25% - 40px);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:bisque;
+}
+
+.card p:nth-of-type(1) { 
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(14, 61, 114);
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.card p:nth-of-type(2) {
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.card p:nth-of-type(3) {
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 20px;  
+} 
+  
+#footer {
+  padding-top: 100px;
+  background-color:#f7ede9;
+  font-size: 1rem;
+  text-align: center;
+  color:rgb(14, 61, 114); ;
+}
+
+h2{
+  text-align:center;
+  color: rgb(14, 61, 114);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#img-promo{
+  height: 110px; 
+  width: 120px;
+  border-radius: 100%;
+  text-shadow: 50px;
+}
